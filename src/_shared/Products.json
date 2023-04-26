@@ -5,7 +5,7 @@
     "ProductID": 1000,
     "ProductUrl": "/product-details/1000",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -14,7 +14,7 @@
     "ProductID": 1001,
     "ProductUrl": "/product-details/1001",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -23,7 +23,7 @@
     "ProductID": 1002,
     "ProductUrl": "/product-details/1002",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -32,7 +32,7 @@
     "ProductID": 1003,
     "ProductUrl": "/product-details/1003",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -41,7 +41,7 @@
     "ProductID": 1004,
     "ProductUrl": "/product-details/1004",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -50,7 +50,7 @@
     "ProductID": 1005,
     "ProductUrl": "/product-details/1005",
     "Category": "Category 1",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -59,7 +59,7 @@
     "ProductID": 1006,
     "ProductUrl": "/product-details/1006",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -68,7 +68,7 @@
     "ProductID": 1007,
     "ProductUrl": "/product-details/1007",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -77,7 +77,7 @@
     "ProductID": 1008,
     "ProductUrl": "/product-details/1008",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -86,7 +86,7 @@
     "ProductID": 1009,
     "ProductUrl": "/product-details/1009",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -95,7 +95,7 @@
     "ProductID": 1010,
     "ProductUrl": "/product-details/1010",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -104,7 +104,7 @@
     "ProductID": 1011,
     "ProductUrl": "/product-details/1011",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -113,7 +113,7 @@
     "ProductID": 1012,
     "ProductUrl": "/product-details/1012",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -122,7 +122,7 @@
     "ProductID": 1013,
     "ProductUrl": "/product-details/1013",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -131,7 +131,7 @@
     "ProductID": 1014,
     "ProductUrl": "/product-details/1014",
     "Category": "Category 1",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -140,7 +140,7 @@
     "ProductID": 1015,
     "ProductUrl": "/product-details/1015",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -149,7 +149,7 @@
     "ProductID": 1016,
     "ProductUrl": "/product-details/1016",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -158,7 +158,7 @@
     "ProductID": 1017,
     "ProductUrl": "/product-details/1017",
     "Category": "Category 1",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -167,7 +167,7 @@
     "ProductID": 1018,
     "ProductUrl": "/product-details/1018",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -176,7 +176,7 @@
     "ProductID": 1019,
     "ProductUrl": "/product-details/1019",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -185,7 +185,7 @@
     "ProductID": 1020,
     "ProductUrl": "/product-details/1020",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -194,7 +194,7 @@
     "ProductID": 1021,
     "ProductUrl": "/product-details/1021",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -203,7 +203,7 @@
     "ProductID": 1022,
     "ProductUrl": "/product-details/1022",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -212,7 +212,7 @@
     "ProductID": 1023,
     "ProductUrl": "/product-details/1023",
     "Category": "Category 1",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -221,7 +221,7 @@
     "ProductID": 1024,
     "ProductUrl": "/product-details/1024",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -230,7 +230,7 @@
     "ProductID": 1025,
     "ProductUrl": "/product-details/1025",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -239,7 +239,7 @@
     "ProductID": 1026,
     "ProductUrl": "/product-details/1026",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -248,7 +248,7 @@
     "ProductID": 1027,
     "ProductUrl": "/product-details/1027",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -257,7 +257,7 @@
     "ProductID": 1028,
     "ProductUrl": "/product-details/1028",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -266,7 +266,7 @@
     "ProductID": 1029,
     "ProductUrl": "/product-details/1029",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -275,7 +275,7 @@
     "ProductID": 1030,
     "ProductUrl": "/product-details/1030",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -284,7 +284,7 @@
     "ProductID": 1031,
     "ProductUrl": "/product-details/1031",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -293,7 +293,7 @@
     "ProductID": 1032,
     "ProductUrl": "/product-details/1032",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -302,7 +302,7 @@
     "ProductID": 1033,
     "ProductUrl": "/product-details/1033",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -311,7 +311,7 @@
     "ProductID": 1034,
     "ProductUrl": "/product-details/1034",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -320,7 +320,7 @@
     "ProductID": 1035,
     "ProductUrl": "/product-details/1035",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -329,7 +329,7 @@
     "ProductID": 1036,
     "ProductUrl": "/product-details/1036",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -338,7 +338,7 @@
     "ProductID": 1037,
     "ProductUrl": "/product-details/1037",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -347,7 +347,7 @@
     "ProductID": 1038,
     "ProductUrl": "/product-details/1038",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -356,7 +356,7 @@
     "ProductID": 1039,
     "ProductUrl": "/product-details/1039",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -365,7 +365,7 @@
     "ProductID": 1040,
     "ProductUrl": "/product-details/1040",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -374,7 +374,7 @@
     "ProductID": 1041,
     "ProductUrl": "/product-details/1041",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -383,7 +383,7 @@
     "ProductID": 1042,
     "ProductUrl": "/product-details/1042",
     "Category": "Category 1",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -392,7 +392,7 @@
     "ProductID": 1043,
     "ProductUrl": "/product-details/1043",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -401,7 +401,7 @@
     "ProductID": 1044,
     "ProductUrl": "/product-details/1044",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -410,7 +410,7 @@
     "ProductID": 1045,
     "ProductUrl": "/product-details/1045",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -419,7 +419,7 @@
     "ProductID": 1046,
     "ProductUrl": "/product-details/1046",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -428,7 +428,7 @@
     "ProductID": 1047,
     "ProductUrl": "/product-details/1047",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -437,7 +437,7 @@
     "ProductID": 1048,
     "ProductUrl": "/product-details/1048",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -446,7 +446,7 @@
     "ProductID": 1049,
     "ProductUrl": "/product-details/1049",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -455,7 +455,7 @@
     "ProductID": 1050,
     "ProductUrl": "/product-details/1050",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -464,7 +464,7 @@
     "ProductID": 1051,
     "ProductUrl": "/product-details/1051",
     "Category": "Category 1",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -473,7 +473,7 @@
     "ProductID": 1052,
     "ProductUrl": "/product-details/1052",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -482,7 +482,7 @@
     "ProductID": 1053,
     "ProductUrl": "/product-details/1053",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -491,7 +491,7 @@
     "ProductID": 1054,
     "ProductUrl": "/product-details/1054",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -500,7 +500,7 @@
     "ProductID": 1055,
     "ProductUrl": "/product-details/1055",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -509,7 +509,7 @@
     "ProductID": 1056,
     "ProductUrl": "/product-details/1056",
     "Category": "Category 1",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -518,7 +518,7 @@
     "ProductID": 1057,
     "ProductUrl": "/product-details/1057",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -527,7 +527,7 @@
     "ProductID": 1058,
     "ProductUrl": "/product-details/1058",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -536,7 +536,7 @@
     "ProductID": 1059,
     "ProductUrl": "/product-details/1059",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -545,7 +545,7 @@
     "ProductID": 1060,
     "ProductUrl": "/product-details/1060",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -554,7 +554,7 @@
     "ProductID": 1061,
     "ProductUrl": "/product-details/1061",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -563,7 +563,7 @@
     "ProductID": 1062,
     "ProductUrl": "/product-details/1062",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -572,7 +572,7 @@
     "ProductID": 1063,
     "ProductUrl": "/product-details/1063",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -581,7 +581,7 @@
     "ProductID": 1064,
     "ProductUrl": "/product-details/1064",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -590,7 +590,7 @@
     "ProductID": 1065,
     "ProductUrl": "/product-details/1065",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -599,7 +599,7 @@
     "ProductID": 1066,
     "ProductUrl": "/product-details/1066",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -608,7 +608,7 @@
     "ProductID": 1067,
     "ProductUrl": "/product-details/1067",
     "Category": "Category 1",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -617,7 +617,7 @@
     "ProductID": 1068,
     "ProductUrl": "/product-details/1068",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -626,7 +626,7 @@
     "ProductID": 1069,
     "ProductUrl": "/product-details/1069",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -635,7 +635,7 @@
     "ProductID": 1070,
     "ProductUrl": "/product-details/1070",
     "Category": "Category 1",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -644,7 +644,7 @@
     "ProductID": 1071,
     "ProductUrl": "/product-details/1071",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -653,7 +653,7 @@
     "ProductID": 1072,
     "ProductUrl": "/product-details/1072",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -662,7 +662,7 @@
     "ProductID": 1073,
     "ProductUrl": "/product-details/1073",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -671,7 +671,7 @@
     "ProductID": 1074,
     "ProductUrl": "/product-details/1074",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -680,7 +680,7 @@
     "ProductID": 1075,
     "ProductUrl": "/product-details/1075",
     "Category": "Category 1",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -689,7 +689,7 @@
     "ProductID": 1076,
     "ProductUrl": "/product-details/1076",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -698,7 +698,7 @@
     "ProductID": 1077,
     "ProductUrl": "/product-details/1077",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -707,7 +707,7 @@
     "ProductID": 1078,
     "ProductUrl": "/product-details/1078",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -716,7 +716,7 @@
     "ProductID": 1079,
     "ProductUrl": "/product-details/1079",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -725,7 +725,7 @@
     "ProductID": 1080,
     "ProductUrl": "/product-details/1080",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -734,7 +734,7 @@
     "ProductID": 1081,
     "ProductUrl": "/product-details/1081",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -743,7 +743,7 @@
     "ProductID": 1082,
     "ProductUrl": "/product-details/1082",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -752,7 +752,7 @@
     "ProductID": 1083,
     "ProductUrl": "/product-details/1083",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -761,7 +761,7 @@
     "ProductID": 1084,
     "ProductUrl": "/product-details/1084",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -770,7 +770,7 @@
     "ProductID": 1085,
     "ProductUrl": "/product-details/1085",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -779,7 +779,7 @@
     "ProductID": 1086,
     "ProductUrl": "/product-details/1086",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -788,7 +788,7 @@
     "ProductID": 1087,
     "ProductUrl": "/product-details/1087",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -797,7 +797,7 @@
     "ProductID": 1088,
     "ProductUrl": "/product-details/1088",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -806,7 +806,7 @@
     "ProductID": 1089,
     "ProductUrl": "/product-details/1089",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -815,7 +815,7 @@
     "ProductID": 1090,
     "ProductUrl": "/product-details/1090",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -824,7 +824,7 @@
     "ProductID": 1091,
     "ProductUrl": "/product-details/1091",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -833,7 +833,7 @@
     "ProductID": 1092,
     "ProductUrl": "/product-details/1092",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -842,7 +842,7 @@
     "ProductID": 1093,
     "ProductUrl": "/product-details/1093",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -851,7 +851,7 @@
     "ProductID": 1094,
     "ProductUrl": "/product-details/1094",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -860,7 +860,7 @@
     "ProductID": 1095,
     "ProductUrl": "/product-details/1095",
     "Category": "Category 3",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -869,7 +869,7 @@
     "ProductID": 1096,
     "ProductUrl": "/product-details/1096",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -878,7 +878,7 @@
     "ProductID": 1097,
     "ProductUrl": "/product-details/1097",
     "Category": "Category 2",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -887,7 +887,7 @@
     "ProductID": 1098,
     "ProductUrl": "/product-details/1098",
     "Category": "Category 4",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
@@ -896,7 +896,7 @@
     "ProductID": 1099,
     "ProductUrl": "/product-details/1099",
     "Category": "Category 1",
-    "ImageUrl": "/media/assets-product-img.png",
+    "ImageUrl": "media/assets-product-img.png",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   }
 ]
