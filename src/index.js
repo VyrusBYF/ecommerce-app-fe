@@ -11,14 +11,13 @@ import { ShoppingCartProvider } from "./Shopping/Cart/ShoppingCartProvider";
 import { CookiesProvider } from "react-cookie";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-const baseUrl = document.getElementsByTagName("base")[0].getAttribute("href");
 export const mediaUrl = "src/_meta/media";
 
 root.render(
   <React.StrictMode>
     <CookiesProvider>
       <ShoppingCartProvider>
-        <Router basename={baseUrl}>
+        <Router basename="https://vyrusbyf.github.io/ecommerce-app-fe">
           <ScrollToTop />
           <App />
         </Router>
