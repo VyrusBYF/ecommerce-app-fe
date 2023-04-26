@@ -54,7 +54,7 @@ export const Catalog = (): JSX.Element => {
 
   useEffect(() => {
     setCurrentItems(products.slice(itemOffset, endOffset));
-  }, [products]);
+  }, [products, itemOffset]);
 
   useEffect(() => {
     // Let the catalog know the price filter is applied
@@ -74,6 +74,7 @@ export const Catalog = (): JSX.Element => {
   }, [currentScreenWidth]);
 
   const navigateToPage = (page: number) => {
+    console.log(page);
     const newOffset = ((page - 1) * itemsPerPage) % products.length;
     setItemOffset(newOffset);
     setCurrentPage(page);
