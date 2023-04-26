@@ -8,7 +8,7 @@ export const ErrorPage = (): JSX.Element => (
         <Col>
           <img
             className="img-fluid"
-            src="/media/assets-page-error.jpg"
+            src="media/assets-page-error.jpg"
             alt=""
           />
         </Col>

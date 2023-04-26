@@ -41,7 +41,7 @@ export const Home = (): JSX.Element => {
       <Card className="my-3 mx-auto shadow-sm">
         <Card.Img
           className=""
-          src={`${process.env.PUBLIC_URL}/media/assets-product-img.png`}
+          src="media/assets-product-img.png"
         />
         <Card.ImgOverlay>
           <Card.Text className="position-absolute bottom-0 start-0 end-0 fs-5">Category</Card.Text>

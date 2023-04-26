@@ -51,7 +51,7 @@ export const Header = (): JSX.Element => {
               ? siteLinks.map((item, id) => (
                   <Nav.Link
                     className="p-3"
-                    href={`${process.env.PUBLIC_URL}${item.Link}`}
+                    href={`${process.env.PUBLIC_URL}#${item.Link}`}
                     active={location.pathname.includes(item.Name.toLowerCase())}
                     onClick={item.onClick ?? null}
                     key={id}>
