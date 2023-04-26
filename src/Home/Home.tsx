@@ -11,6 +11,29 @@ export const Home = (): JSX.Element => {
   // Temporary setup until database is done.
   const [products, setProducts] = useState<Product[]>(Products.slice(0, 8));
 
+  const carouselItems: { label: string; desc: string; imgLink: string }[] = [
+    {
+      label: "First slide label",
+      desc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+      imgLink: "/media/assets-casual-long.jpg"
+    },
+    {
+      label: "Second slide label",
+      desc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+      imgLink: "/media/assets-suit-long.jpg"
+    },
+    {
+      label: "Third slide label",
+      desc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+      imgLink: "/media/assets-dress-long.jpg"
+    },
+    {
+      label: "Fourth slide label",
+      desc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+      imgLink: "/media/assets-shoes-long.jpg"
+    }
+  ];
+
   const placeholderCategories: ReactNode[] = [...new Array(3)].fill(
     <Col
       xs={12}
@@ -18,7 +41,7 @@ export const Home = (): JSX.Element => {
       <Card className="my-3 mx-auto shadow-sm">
         <Card.Img
           className=""
-          src="/media/assets-product-img.png"
+          src={`${process.env.PUBLIC_URL}/media/assets-product-img.png`}
         />
         <Card.ImgOverlay>
           <Card.Text className="position-absolute bottom-0 start-0 end-0 fs-5">Category</Card.Text>
@@ -37,58 +60,23 @@ export const Home = (): JSX.Element => {
             className=""
             interval={3500}
             controls={false}>
-            <Carousel.Item className="">
-              <div className="img-overlay-container">
-                <img
-                  className="d-block img-fluid"
-                  src="/media/assets-casual-long.jpg"
-                  alt="First slide"
-                />
-              </div>
-              <Carousel.Caption className="">
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <div className="img-overlay-container">
-                <img
-                  className="d-block img-fluid"
-                  src="/media/assets-shoes-long.jpg"
-                  alt="Second slide"
-                />
-              </div>
-              <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <div className="img-overlay-container">
-                <img
-                  className="d-block img-fluid"
-                  src="/media/assets-suit-long.jpg"
-                  alt="Third slide"
-                />
-              </div>
-              <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <div className="img-overlay-container">
-                <img
-                  className="d-block img-fluid"
-                  src="/media/assets-dress-long.jpg"
-                  alt="Fourth slide"
-                />
-              </div>
-              <Carousel.Caption>
-                <h3>Fourth slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
+            {carouselItems.map((carouselItem, id) => (
+              <Carousel.Item
+                className=""
+                key={id}>
+                <div className="img-overlay-container">
+                  <img
+                    className="d-block img-fluid"
+                    src={`${process.env.PUBLIC_URL}${carouselItem.imgLink}`}
+                    alt="First slide"
+                  />
+                </div>
+                <Carousel.Caption className="">
+                  <h3>{carouselItem.label}</h3>
+                  <p>{carouselItem.desc}</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            ))}
           </Carousel>
         </Row>
       </Container>

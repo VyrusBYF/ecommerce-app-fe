@@ -20,7 +20,7 @@ function App(): JSX.Element {
     { Name: "Checkout", Link: "/checkout", Element: <Checkout /> },
     { Name: "Cart", Link: "/cart", Element: <CartDetailsPage /> },
     { Name: "Error", Link: "*", Element: <ErrorPage /> },
-    { Name: "Home", Link: "/ecommerce-fe", Element: <Home /> },
+    { Name: "Home", Link: "/", Element: <Home /> },
     // { Name: "Login", Link: "/login", Element: <Login /> },
     { Name: "Product Details", Link: "/product-details/:productID", Element: <ProductDetailsPage /> },
     // { Name: "Register", Link: "/register", Element: <Registration /> },

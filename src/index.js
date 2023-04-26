@@ -17,7 +17,7 @@ root.render(
   <React.StrictMode>
     <CookiesProvider>
       <ShoppingCartProvider>
-        <Router basename="https://vyrusbyf.github.io/ecommerce-app-fe">
+        <Router basename={process.env.PROCESS_URL}>
           <ScrollToTop />
           <App />
         </Router>
