@@ -8,7 +8,6 @@ import { ProductDetailsPage } from "./Shopping/ProductDetailsPage";
 import { Checkout } from "./Shopping/Checkout";
 import { Login } from "./Home/Account/Login";
 import { Registration } from "./Home/Account/Registration";
-import { useShoppingCart } from "./Shopping/Cart/ShoppingCartProvider";
 import { CartDetailsPage } from "./Shopping/Cart/CartDetailsPage";
 import { ErrorPage } from "./_shared/ErrorPage";
 
@@ -21,7 +20,7 @@ function App(): JSX.Element {
     { Name: "Checkout", Link: "/checkout", Element: <Checkout /> },
     { Name: "Cart", Link: "/cart", Element: <CartDetailsPage /> },
     { Name: "Error", Link: "*", Element: <ErrorPage /> },
-    { Name: "Home", Link: "/", Element: <Home /> },
+    { Name: "Home", Link: "/ecommerce-fe", Element: <Home /> },
     // { Name: "Login", Link: "/login", Element: <Login /> },
     { Name: "Product Details", Link: "/product-details/:productID", Element: <ProductDetailsPage /> },
     // { Name: "Register", Link: "/register", Element: <Registration /> },
