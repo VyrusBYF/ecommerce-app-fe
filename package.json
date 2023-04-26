@@ -1,7 +1,7 @@
 {
   "name": "ecommerce-app",
   "version": "0.1.0",
-  "homepage": "https://vyrusbyf.github.io/ecommerce-app-fe/build",
+  "homepage": "https://vyrusbyf.github.io/ecommerce-app-fe/",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
