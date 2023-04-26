@@ -15,22 +15,22 @@ export const Home = (): JSX.Element => {
     {
       label: "First slide label",
       desc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-      imgLink: "/media/assets-casual-long.jpg"
+      imgLink: "media/assets-casual-long.jpg"
     },
     {
       label: "Second slide label",
       desc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-      imgLink: "/media/assets-suit-long.jpg"
+      imgLink: "media/assets-suit-long.jpg"
     },
     {
       label: "Third slide label",
       desc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-      imgLink: "/media/assets-dress-long.jpg"
+      imgLink: "media/assets-dress-long.jpg"
     },
     {
       label: "Fourth slide label",
       desc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-      imgLink: "/media/assets-shoes-long.jpg"
+      imgLink: "media/assets-shoes-long.jpg"
     }
   ];
 
@@ -67,7 +67,7 @@ export const Home = (): JSX.Element => {
                 <div className="img-overlay-container">
                   <img
                     className="d-block img-fluid"
-                    src={`${process.env.PUBLIC_URL}${carouselItem.imgLink}`}
+                    src={carouselItem.imgLink}
                     alt="First slide"
                   />
                 </div>

@@ -34,7 +34,7 @@ export const Header = (): JSX.Element => {
       <Container>
         <Navbar.Brand
           className="fs-18 my-auto"
-          href="/">
+          href="/ecommerce-app-fe">
           <img
             alt="Your Logo"
             src="media/logo.svg"

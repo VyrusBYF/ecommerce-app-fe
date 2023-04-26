@@ -17,7 +17,7 @@ export const Banner = (props: IBannerProps): JSX.Element => {
         fluid>
         <img
           className="img-fluid w-100"
-          src={`${process.env.PUBLIC_URL}/media/assets-page-banner.png"`}
+          src="media/assets-page-banner.png"
           alt="page banner"
         />
         <div className="position-absolute">
