@@ -15,15 +15,7 @@ export const Header = (): JSX.Element => {
   const siteLinks: { Name: string; Link: string; onClick?: MouseEventHandler<HTMLElement> }[] = [
     { Name: "Shop", Link: "/shop" },
 
-    { Name: "Wishlist", Link: "/wishlist" },
-    {
-      Name: "Contact",
-      Link: "",
-      onClick: () => {
-        const element = document.getElementById("footer");
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-    }
+    { Name: "Wishlist", Link: "/wishlist" }
   ];
   return (
     <Navbar
@@ -59,6 +51,16 @@ export const Header = (): JSX.Element => {
                   </Nav.Link>
                 ))
               : null}
+            <Nav.Link
+              className="p-3"
+              href=""
+              active={location.pathname.includes("contact")}
+              onClick={() => {
+                const element = document.getElementById("footer");
+                element.scrollIntoView({ behavior: "smooth" });
+              }}>
+              {"Contact"}
+            </Nav.Link>
             {/* <Row className="">
               <Col>
                 <Nav.Link
