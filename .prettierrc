@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/prettierrc.json",
+  "arrowParens": "avoid",
+  "bracketSameLine": true,
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "auto",
+  "endOfLine": "auto",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": true,
+  "jsxSingleQuote": false,
+  "printWidth": 120,
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleAttributePerLine": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useEditorConfig": true,
+  "useTabs": false
+}
