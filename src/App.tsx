@@ -4,12 +4,14 @@ import { Header } from "./Home/Header";
 import { Home } from "./Home/Home";
 import { Catalog } from "./Shopping/Catalog";
 import "./_meta/css/App.css";
+import "react-toastify/dist/ReactToastify.css";
 import { ProductDetailsPage } from "./Shopping/ProductDetailsPage";
 import { Checkout } from "./Shopping/Checkout";
 import { Login } from "./Home/Account/Login";
 import { Registration } from "./Home/Account/Registration";
 import { CartDetailsPage } from "./Shopping/Cart/CartDetailsPage";
 import { ErrorPage } from "./_shared/ErrorPage";
+import { ToastContainer } from "react-toastify";
 
 function App(): JSX.Element {
   const routes: {
@@ -29,6 +31,11 @@ function App(): JSX.Element {
 
   return (
     <div className="App">
+      <ToastContainer
+        theme="dark"
+        position="top-left"
+        autoClose={2000}
+      />
       <Header />
       <div className="d-flex flex-column min-vh-100 mt-4">
         <Routes>
