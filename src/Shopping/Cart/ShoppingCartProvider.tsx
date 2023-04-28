@@ -42,15 +42,15 @@ export const ShoppingCartProvider = (props: IShoppingCartProviderProps): JSX.Ele
     setCartItems(cookies.Cart ?? []);
   }, []);
 
-  const checkCart = (id: number) => {
-    return cartItems.findIndex(item => item.ProductID === id);
-  };
+  const checkCart = (id: number) => cartItems.findIndex(item => item.ProductID === id);
 
   const addToCart = (product: Product) => {
     if (checkCart(product.ProductID) < 0) {
       setCartItems([...cartItems, { ...product, Quantity: 1 }]);
+      toast.success(`${getItemByID(product.ProductID)?.Name ?? "Item"} was added from cart`);
     }
     increaseItemQuantity(product.ProductID);
+    toast.success(`${getItemByID(product.ProductID)?.Name ?? "Item"} was added from cart`);
   };
 
   const getItemByID = (id: number) => {
