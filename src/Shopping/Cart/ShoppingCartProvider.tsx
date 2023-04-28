@@ -49,7 +49,7 @@ export const ShoppingCartProvider = (props: IShoppingCartProviderProps): JSX.Ele
       setCartItems([...cartItems, { ...product, Quantity: 1 }]);
     }
     increaseItemQuantity(product.ProductID);
-    toast.success(`${getItemByID(product.ProductID)?.Name ?? "Item"} was added from cart`);
+    toast.success(`${getItemByID(product.ProductID)?.Name ?? "Item"} was added to cart`);
   };
 
   const getItemByID = (id: number) => {

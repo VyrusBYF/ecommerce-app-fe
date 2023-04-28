@@ -43,7 +43,7 @@ export const Header = (): JSX.Element => {
                   <Nav.Link
                     as={Link}
                     className="p-3"
-                    to={`${process.env.PUBLIC_URL}#${item.Link}`}
+                    to={`${item.Link}`}
                     active={location.pathname.includes(item.Name.toLowerCase())}
                     onClick={item.onClick ?? null}
                     eventKey={id}
