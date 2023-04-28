@@ -16,9 +16,9 @@ import { useShoppingCart } from "./Cart/ShoppingCartProvider";
 export const ProductDetailsPage = (): JSX.Element => {
   const { productID } = useParams();
   const initialProduct: Product = {
-    Name: "",
     Category: "",
     ImageUrl: "",
+    Name: "",
     Price: 0,
     ProductID: 0,
     ProductUrl: ""
@@ -27,6 +27,8 @@ export const ProductDetailsPage = (): JSX.Element => {
   const cart = useShoppingCart();
 
   useEffect(() => {
+    console.log(Products.find(product => product.ProductID.toString() === productID));
+    console.log("GAZA");
     setCurrentProduct(Products.find(product => product.ProductID.toString() === productID));
   }, []);
 

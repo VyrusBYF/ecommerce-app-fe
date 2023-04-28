@@ -47,6 +47,8 @@ export const ShoppingCartProvider = (props: IShoppingCartProviderProps): JSX.Ele
   const addToCart = (product: Product) => {
     if (checkCart(product.ProductID) < 0) {
       setCartItems([...cartItems, { ...product, Quantity: 1 }]);
+      toast.success(`${getItemByID(product.ProductID)?.Name ?? "Item"} was added to cart`);
+      return;
     }
     increaseItemQuantity(product.ProductID);
     toast.success(`${getItemByID(product.ProductID)?.Name ?? "Item"} was added to cart`);
@@ -111,6 +113,7 @@ export const ShoppingCartProvider = (props: IShoppingCartProviderProps): JSX.Ele
         addToCart,
         cartItems,
         decreaseItemQuantity,
+        getItemByID,
         getItemQuantity,
         increaseItemQuantity,
         isCartEmpty,
