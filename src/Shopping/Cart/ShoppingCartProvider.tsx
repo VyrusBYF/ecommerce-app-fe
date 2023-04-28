@@ -3,6 +3,7 @@ import { createContext, ReactNode, useContext, useEffect, useState } from "react
 import { CartItem, Product } from "src/_shared/sharedTypes";
 import { Cart } from "./Cart";
 import { useCookies } from "react-cookie";
+import { toast } from "react-toastify";
 
 interface IShoppingCartProviderProps {
   children: ReactNode;
@@ -12,7 +13,7 @@ interface IShoppingCartContext {
   addToCart?: (product: Product) => void;
   cartItems: CartItem[];
   decreaseItemQuantity?: (id: number) => void;
-  getItemByID?: (id: number) => number;
+  getItemByID?: (id: number) => CartItem;
   getItemQuantity?: (id: number) => number;
   increaseItemQuantity?: (id: number) => void;
   isCartEmpty: boolean;
@@ -52,7 +53,12 @@ export const ShoppingCartProvider = (props: IShoppingCartProviderProps): JSX.Ele
     increaseItemQuantity(product.ProductID);
   };
 
-  // const getItemByID = (id: number) => cartItems.find(item => item.ProductID === id)?.Quantity;
+  const getItemByID = (id: number) => {
+    if (checkCart(id) < 0) {
+      return null;
+    }
+    return cartItems.find(item => item.ProductID === id);
+  };
 
   const decreaseItemQuantity = (id: number) => {
     if (checkCart(id) < 0) {
@@ -83,13 +89,13 @@ export const ShoppingCartProvider = (props: IShoppingCartProviderProps): JSX.Ele
     newCartItems[currentProduct].Quantity += 1;
     setCartItems(newCartItems);
   };
-  // const decreaseItemQuantity =(id: number) => number;
 
   const removeFromCart = (id: number) => {
     if (checkCart(id) < 0) {
       return;
     }
     setCartItems([...cartItems.filter(item => item.ProductID !== id)]);
+    toast.error(`${getItemByID(id)?.Name ?? "Item"} was removed from cart`);
   };
 
   const showToggle = (close?: boolean) => {

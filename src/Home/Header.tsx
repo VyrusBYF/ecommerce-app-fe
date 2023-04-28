@@ -1,9 +1,8 @@
-import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import { faMagnifyingGlass, faShoppingBag } from "@fortawesome/free-solid-svg-icons";
+import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { MouseEventHandler } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useShoppingCart } from "src/Shopping/Cart/ShoppingCartProvider";
 import { CartDetails } from "src/Shopping/Cart/CartDetails";
 import brand from "src/_shared/brand";
@@ -14,14 +13,14 @@ export const Header = (): JSX.Element => {
 
   const siteLinks: { Name: string; Link: string; onClick?: MouseEventHandler<HTMLElement> }[] = [
     { Name: "Shop", Link: "/shop" },
-
     { Name: "Wishlist", Link: "/wishlist" }
   ];
   return (
     <Navbar
       bg="dark"
       className="w-100 sticky-top"
-      expand="lg"
+      collapseOnSelect
+      expand="sm"
       variant="dark">
       <Container>
         <Navbar.Brand
@@ -42,10 +41,12 @@ export const Header = (): JSX.Element => {
             {siteLinks
               ? siteLinks.map((item, id) => (
                   <Nav.Link
+                    as={Link}
                     className="p-3"
-                    href={`${process.env.PUBLIC_URL}#${item.Link}`}
+                    to={`${process.env.PUBLIC_URL}#${item.Link}`}
                     active={location.pathname.includes(item.Name.toLowerCase())}
                     onClick={item.onClick ?? null}
+                    eventKey={id}
                     key={id}>
                     {item.Name}
                   </Nav.Link>
@@ -79,7 +80,11 @@ export const Header = (): JSX.Element => {
             </Row> */}
           </Nav>
           <Nav>
-            <Nav.Item className="py-3 my-auto text-light navbar-expand-lg">
+            <Nav.Link
+              as={Link}
+              to={null}
+              eventKey={siteLinks?.length + 1}
+              className="py-3 my-auto text-light navbar-expand-lg">
               {/* <span className="m-3">
                 <FontAwesomeIcon
                   className="me-2"
@@ -89,14 +94,16 @@ export const Header = (): JSX.Element => {
               </span> */}
               <span
                 className="m-3"
-                onClick={() => cart.showToggle()}>
+                onClick={() => {
+                  cart.showToggle();
+                }}>
                 <FontAwesomeIcon
                   className="me-2"
                   icon={faShoppingBag}
                 />
                 {`Cart (${cart.cartItems.length ?? 0})`}
               </span>
-            </Nav.Item>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

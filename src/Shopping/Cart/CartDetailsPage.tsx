@@ -137,12 +137,25 @@ export const CartDetailsPage = (): JSX.Element => {
           </Col>
         )}
         <Col className="text-center py-3">
-          <Button
-            className="px-5"
-            variant="dark"
-            onClick={() => navigate("/checkout", { replace: true })}>
-            Checkout
-          </Button>
+          {cart.isCartEmpty ? (
+            <Button
+              className="w-80"
+              variant="dark"
+              onClick={() => {
+                navigate("/shop", { replace: true });
+              }}>
+              Continue Shopping
+            </Button>
+          ) : (
+            <Button
+              className="w-80"
+              variant="dark"
+              onClick={() => {
+                navigate("/checkout", { replace: true });
+              }}>
+              Checkout
+            </Button>
+          )}
         </Col>
       </Container>
     </Container>

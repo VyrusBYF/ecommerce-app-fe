@@ -3,16 +3,10 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { Banner } from "src/_shared/Banner";
 import { TextInputFormGroup } from "src/_shared/FormGroups/TextInputFormGroup";
-import Products from "src/_shared/Products.json";
 import { applyDiscount, globalDiscount } from "src/_shared/pricing";
-import { useContext, useEffect, useState } from "react";
-import { Product } from "src/_shared/sharedTypes";
+import { useState } from "react";
 import { TextAreaFormGroup } from "src/_shared/FormGroups/TextAreaFormGroup";
 import { useShoppingCart } from "./Cart/ShoppingCartProvider";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCross, faMultiply } from "@fortawesome/free-solid-svg-icons";
-import { QuantityModifier } from "src/_shared/QuantityModifier";
-import { render } from "@testing-library/react";
 
 interface ICheckoutDetails {
   // Billing details

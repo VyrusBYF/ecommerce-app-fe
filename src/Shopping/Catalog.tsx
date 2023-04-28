@@ -74,7 +74,6 @@ export const Catalog = (): JSX.Element => {
   }, [currentScreenWidth]);
 
   const navigateToPage = (page: number) => {
-    console.log(page);
     const newOffset = ((page - 1) * itemsPerPage) % products.length;
     setItemOffset(newOffset);
     setCurrentPage(page);
@@ -147,15 +146,17 @@ export const Catalog = (): JSX.Element => {
             <Col
               md={12}
               xl={5}>
-              <Row className="text-start p-2 mb-2 align-items-center">
-                <Col xs={8}>
-                  <h4 className="py-1 my-auto">Product Categories</h4>
+              <Row className="p-2 mb-2 align-items-center">
+                <Col
+                  xs={12}
+                  sm={8}>
+                  <h4 className="text-center text-sm-start py-1 my-auto">Product Categories</h4>
                 </Col>
                 <Col
-                  xs={4}
-                  className="text-end">
+                  sm={4}
+                  className="text-center text-sm-end">
                   <Button
-                    className="btn-text-sm"
+                    className="mt-3 mt-sm-0 btn-text-sm"
                     onClick={() => resetCatalog()}
                     variant="dark">
                     Reset Filters
@@ -181,20 +182,26 @@ export const Catalog = (): JSX.Element => {
                 ))}
               </Row>
               <Row className="text-start p-2 mb-3">
-                <Col xs={12}>
-                  <Row>
-                    <Col xs={12}>
+                <Col
+                  xs={12}
+                  className="d-sm-none">
+                  <hr />
+                  <Row className="">
+                    <Col
+                      xs={12}
+                      className="text-center mb-2">
                       <h4>Filter By Price</h4>
                     </Col>
                     <Col
                       as={Form}
                       onSubmit={handleSubmit(filterCatalog)}>
-                      <Row>
+                      <Row className="text-center">
                         <Col
-                          xs={5}
+                          xs={6}
                           sm={5}
                           md={6}
-                          lg={3}>
+                          lg={3}
+                          className="mx-auto">
                           <Form.Control
                             {...register("catalogMin", {
                               min: { value: globalMinPrice, message: "Please enter an amount larger than $0.99" },
@@ -213,7 +220,7 @@ export const Catalog = (): JSX.Element => {
                           {errors.catalogMin ? <p className="error-msg">{errors.catalogMin.message}</p> : null}
                         </Col>
                         <Col
-                          xs={5}
+                          xs={6}
                           sm={5}
                           md={6}
                           lg={3}>
@@ -241,7 +248,7 @@ export const Catalog = (): JSX.Element => {
                       <Row>
                         <Col
                           xs={12}
-                          className="my-2">
+                          className="my-2 text-center">
                           <Button
                             className="btn-text-sm px-3 py-1 rounded-4 w-50"
                             type="submit"
