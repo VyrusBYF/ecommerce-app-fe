@@ -5,6 +5,7 @@ import { faMultiply } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router";
 import { applyDiscount, globalDiscount } from "src/_shared/pricing";
 import { QuantityModifier } from "src/_shared/QuantityModifier";
+import { Link } from "react-router-dom";
 
 export const CartDetails = (): JSX.Element => {
   const cart = useShoppingCart();
@@ -40,11 +41,15 @@ export const CartDetails = (): JSX.Element => {
                     key={id}
                     className="p-3">
                     <Col xs={5}>
-                      <img
-                        className="img-fluid"
-                        src={item.ImageUrl}
-                        alt={item.Name}
-                      />
+                      <Link
+                        to={item.ProductUrl}
+                        onClick={() => cart.showToggle()}>
+                        <img
+                          className="img-fluid"
+                          src={item.ImageUrl}
+                          alt={item.Name}
+                        />
+                      </Link>
                     </Col>
                     <Col>
                       <Row>
@@ -52,7 +57,9 @@ export const CartDetails = (): JSX.Element => {
                           <span className="fs-18 fw-semibold">{item.Name}</span>
                           <FontAwesomeIcon
                             className="text-danger ms-4 fs-18"
-                            onClick={() => cart.removeFromCart(item.ProductID)}
+                            onClick={() => {
+                              cart.removeFromCart(item.ProductID);
+                            }}
                             icon={faMultiply}
                           />
                         </Col>

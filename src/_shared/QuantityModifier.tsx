@@ -36,6 +36,7 @@ export const QuantityModifier = (props: IQuantityModifierProps): JSX.Element => 
           className="w-100 mx-1 rounded border border-1 border-dark text-center"
           type="text"
           value={quantity}
+          readOnly
         />
         <Button
           variant="dark"

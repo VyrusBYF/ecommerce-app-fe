@@ -27,7 +27,7 @@ export const ProductCard = (props: IProductCardProps): JSX.Element => {
       }}>
       <Link to={`${product?.ProductUrl}`}>
         <img
-          src="media/assets-product-img.png"
+          src={product?.ImageUrl}
           className="card-img-top"
           alt="..."
         />

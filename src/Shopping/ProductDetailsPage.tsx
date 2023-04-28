@@ -11,6 +11,7 @@ import { faShareNodes } from "@fortawesome/free-solid-svg-icons";
 import { AddToCartButton } from "src/_shared/AddToCartButton";
 import { applyDiscount, globalDiscount } from "src/_shared/pricing";
 import { QuantityModifier } from "src/_shared/QuantityModifier";
+import { useShoppingCart } from "./Cart/ShoppingCartProvider";
 
 export const ProductDetailsPage = (): JSX.Element => {
   const { productID } = useParams();
@@ -23,6 +24,7 @@ export const ProductDetailsPage = (): JSX.Element => {
     ProductUrl: ""
   };
   const [currentProduct, setCurrentProduct] = useState<Product>(initialProduct);
+  const cart = useShoppingCart();
 
   useEffect(() => {
     setCurrentProduct(Products.find(product => product.ProductID.toString() === productID));
@@ -55,9 +57,7 @@ export const ProductDetailsPage = (): JSX.Element => {
                   <br />
                   <p>
                     {applyDiscount ? (
-                      <span className="card-text pe-2">
-                        ${(currentProduct?.Price * (1 - globalDiscount)).toFixed(2)}
-                      </span>
+                      <span className="card-text pe-2">${(currentProduct?.Price * globalDiscount).toFixed(2)}</span>
                     ) : null}
                     <span className={`${applyDiscount ? "text-decoration-line-through" : ""} card-text`}>
                       ${currentProduct?.Price.toFixed(2)}
@@ -73,24 +73,23 @@ export const ProductDetailsPage = (): JSX.Element => {
                   xs={12}
                   className="py-2">
                   <Row>
-                    <Col md={6}>
-                      <Row>
-                        <Col
-                          xs={3}
-                          className="my-auto">
-                          <span>Quantity:</span>
-                        </Col>
-                        <Col>
-                          <QuantityModifier />
-                        </Col>
-                      </Row>
-                    </Col>
-                    <Col md={4}>
+                    {cart.getItemByID(currentProduct?.ProductID) ? (
+                      <Col
+                        xs={6}
+                        sm={3}
+                        className="my-3 mx-auto mx-sm-0">
+                        <QuantityModifier />
+                      </Col>
+                    ) : null}
+                    <Col
+                      sm={4}
+                      className="text-center my-auto">
                       <AddToCartButton
                         product={currentProduct}
                         buttonClass="btn btn-outline-dark"
                       />
                     </Col>
+                    <hr className="mt-4 d-sm-none" />
                   </Row>
                 </Col>
                 <Col
