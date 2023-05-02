@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import { Banner } from "src/_shared/Banner";
 import Products from "src/_shared/Products.json";
-import { Product } from "src/_shared/sharedTypes";
+import { CatalogViews, Product } from "src/_shared/sharedTypes";
 import { ProductCard } from "./Product/ProductCard";
 import { default as Paginate } from "react-responsive-pagination";
 import { dropNav } from "react-responsive-pagination/narrowBehaviour";
@@ -12,6 +12,7 @@ import { faGrip, faList } from "@fortawesome/free-solid-svg-icons";
 import { CategoryFilter } from "./Filters/CategoryFilter";
 import { globalDiscount, globalMaxPrice, globalMinPrice } from "src/_shared/pricing";
 import { breakPoints } from "src/_shared/general";
+import { TextInputFormGroup } from "src/_shared/FormGroups/TextInputFormGroup";
 
 interface ICatalogFilterForm {
   catalogMin?: string;
@@ -29,6 +30,7 @@ export const Catalog = (): JSX.Element => {
   const [sortingOption, setSortingOption] = useState<string>("default");
   const [currentMinPrice, setCurrentMinPrice] = useState<string>("");
   const [currentMaxPrice, setCurrentMaxPrice] = useState<string>("");
+  const [catalogView, setCatalogView] = useState<CatalogViews>(CatalogViews.default);
 
   const endOffset = itemOffset + itemsPerPage;
   const pageCount = Math.ceil(products.length / itemsPerPage);
@@ -64,8 +66,8 @@ export const Catalog = (): JSX.Element => {
   // Control the amount of items to display when screen resizes.
   useEffect(() => {
     // Large
-    if (currentScreenWidth <= breakPoints.md) {
-      setItemsPerPage(8);
+    if (currentScreenWidth <= breakPoints.sm) {
+      setItemsPerPage(6);
       return;
     }
     if (itemsPerPage < 9) {
@@ -90,10 +92,10 @@ export const Catalog = (): JSX.Element => {
 
     // Filters based on selected category and price
     const filteredProducts = newProducts.filter(product => {
-      // apply discount to price
+      // Apply discount to price
       const actualPrice = product.Price * activeDiscount;
 
-      // check if product has category attached
+      // Check if product has category attached
       const inCategory = categoryFilters.length > 0 ? categoryFilters.includes(product.Category) : true;
       return actualPrice >= minPrice && actualPrice <= maxPrice && inCategory;
     });
@@ -144,12 +146,15 @@ export const Catalog = (): JSX.Element => {
         <Container>
           <Row className="">
             <Col
+              sm={4}
               md={12}
-              xl={5}>
+              lg={4}>
               <Row className="p-2 mb-2 align-items-center">
                 <Col
                   xs={12}
-                  sm={8}>
+                  sm={8}
+                  md={4}
+                  lg={8}>
                   <h4 className="text-center text-sm-start py-1 my-auto">Product Categories</h4>
                 </Col>
                 <Col
@@ -168,8 +173,6 @@ export const Catalog = (): JSX.Element => {
                   <Col
                     xs={6}
                     sm={6}
-                    lg={2}
-                    xl={12}
                     key={id}>
                     <Row>
                       <CategoryFilter
@@ -182,27 +185,35 @@ export const Catalog = (): JSX.Element => {
                 ))}
               </Row>
               <Row className="text-start p-2 mb-3">
-                <Col
-                  xs={12}
-                  className="d-sm-none">
-                  <hr />
+                <Col xs={12}>
+                  <hr className="d-sm-none" />
                   <Row className="">
                     <Col
                       xs={12}
-                      className="text-center mb-2">
+                      className="text-center text-sm-start mb-2">
                       <h4>Filter By Price</h4>
                     </Col>
                     <Col
                       as={Form}
                       onSubmit={handleSubmit(filterCatalog)}>
-                      <Row className="text-center">
+                      <Row className="text-center text-sm-start">
                         <Col
                           xs={6}
                           sm={5}
-                          md={6}
-                          lg={3}
-                          className="mx-auto">
-                          <Form.Control
+                          className="mx-auto mx-sm-0">
+                          <TextInputFormGroup
+                            formIdentifier="catalogMin"
+                            register={register}
+                            errors={errors}
+                            extraOnChange={e => setCurrentMinPrice(e.currentTarget.value)}
+                            placeholderText="$1.00"
+                            labelText="Min"
+                            min={globalMinPrice}
+                            max={parseInt(currentMaxPrice)}
+                            pattern={/^[\d]+$/u}
+                            patternMessage="Please only enter numbers"
+                          />
+                          {/* <Form.Control
                             {...register("catalogMin", {
                               min: { value: globalMinPrice, message: "Please enter an amount larger than $0.99" },
                               max: {
@@ -217,14 +228,24 @@ export const Catalog = (): JSX.Element => {
                             placeholder="$1.00"
                           />
                           <Form.Label>Min</Form.Label>
-                          {errors.catalogMin ? <p className="error-msg">{errors.catalogMin.message}</p> : null}
+                          {errors.catalogMin ? <p className="error-msg">{errors.catalogMin.message}</p> : null} */}
                         </Col>
                         <Col
                           xs={6}
-                          sm={5}
-                          md={6}
-                          lg={3}>
-                          <Form.Control
+                          sm={5}>
+                          <TextInputFormGroup
+                            formIdentifier="catalogMax"
+                            register={register}
+                            errors={errors}
+                            extraOnChange={e => setCurrentMaxPrice(e.currentTarget.value)}
+                            placeholderText="$1000.00"
+                            labelText="Max"
+                            min={parseInt(currentMinPrice)}
+                            max={globalMaxPrice}
+                            pattern={/^[\d]+$/u}
+                            patternMessage="Please only enter numbers"
+                          />
+                          {/* <Form.Control
                             {...register("catalogMax", {
                               min: {
                                 value: parseInt(currentMinPrice) + 0.99,
@@ -242,15 +263,15 @@ export const Catalog = (): JSX.Element => {
                             placeholder="$1000.00"
                           />
                           <Form.Label>Max</Form.Label>
-                          {errors.catalogMax ? <p className="error-msg">{errors.catalogMax.message}</p> : null}
+                          {errors.catalogMax ? <p className="error-msg">{errors.catalogMax.message}</p> : null} */}
                         </Col>
                       </Row>
                       <Row>
                         <Col
                           xs={12}
-                          className="my-2 text-center">
+                          className="my-3 text-center text-sm-start">
                           <Button
-                            className="btn-text-sm px-3 py-1 rounded-4 w-50"
+                            className="btn-text-sm px-3 py-1 rounded w-50"
                             type="submit"
                             disabled={currentMinPrice === "" || currentMinPrice === ""}
                             variant="dark">
@@ -294,22 +315,39 @@ export const Catalog = (): JSX.Element => {
                 </Col>
                 <Col
                   xs={6}
-                  md={1}>
-                  <FontAwesomeIcon icon={faGrip} />
+                  md={1}
+                  className="mt-2">
+                  <FontAwesomeIcon
+                    className={`${catalogView === CatalogViews.default ? "text-blue" : ""}`}
+                    icon={faGrip}
+                    onClick={() => setCatalogView(CatalogViews.default)}
+                  />
                 </Col>
                 <Col
                   xs={6}
-                  md={1}>
-                  <FontAwesomeIcon icon={faList} />
+                  md={1}
+                  className="mt-2">
+                  <FontAwesomeIcon
+                    className={`${catalogView === CatalogViews.detailed ? "text-blue" : ""}`}
+                    icon={faList}
+                    onClick={() => setCatalogView(CatalogViews.detailed)}
+                  />
                 </Col>
               </Row>
               <Row className="mt-3">
                 {currentItems.map((product: Product, id) => (
                   <Col
-                    xs={6}
-                    md={4}
+                    xs={12}
+                    sm={6}
+                    md={catalogView === CatalogViews.detailed ? 12 : 4}
+                    lg={catalogView === CatalogViews.detailed ? 12 : 4}
                     key={id}>
-                    {<ProductCard product={product} />}
+                    {
+                      <ProductCard
+                        product={product}
+                        view={catalogView}
+                      />
+                    }
                   </Col>
                 ))}
               </Row>

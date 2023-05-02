@@ -131,10 +131,14 @@ export interface ITextInputFormGroupProps extends IFormGroupProps<HTMLInputEleme
   startTouched?: boolean;
   placeholderKey?: string;
   placeholderText?: string;
+  min?: number;
   minLength?: number;
   minLengthMessage?: string;
+  minMessage?: string;
+  max?: number;
   maxLength?: number;
   maxLengthMessage?: string;
+  maxMessage?: string;
   pattern?: RegExp;
   patternMessage?: string;
   isEmail?: boolean;

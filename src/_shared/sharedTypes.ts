@@ -25,3 +25,8 @@ export class CartItem extends Product {
 export class Filter extends Nameable {
   FilterType: string;
 }
+
+export enum CatalogViews {
+  default = "grid",
+  detailed = "detailed"
+}

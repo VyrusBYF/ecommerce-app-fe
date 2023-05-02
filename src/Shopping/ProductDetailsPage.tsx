@@ -8,7 +8,7 @@ import { RWebShare } from "react-web-share";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { faShareNodes } from "@fortawesome/free-solid-svg-icons";
-import { AddToCartButton } from "src/_shared/AddToCartButton";
+import { AddToCartButton } from "src/_shared/Buttons/AddToCartButton";
 import { applyDiscount, globalDiscount } from "src/_shared/pricing";
 import { QuantityModifier } from "src/_shared/QuantityModifier";
 import { useShoppingCart } from "./Cart/ShoppingCartProvider";
@@ -16,9 +16,9 @@ import { useShoppingCart } from "./Cart/ShoppingCartProvider";
 export const ProductDetailsPage = (): JSX.Element => {
   const { productID } = useParams();
   const initialProduct: Product = {
+    Name: "",
     Category: "",
     ImageUrl: "",
-    Name: "",
     Price: 0,
     ProductID: 0,
     ProductUrl: ""
@@ -27,8 +27,6 @@ export const ProductDetailsPage = (): JSX.Element => {
   const cart = useShoppingCart();
 
   useEffect(() => {
-    console.log(Products.find(product => product.ProductID.toString() === productID));
-    console.log("GAZA");
     setCurrentProduct(Products.find(product => product.ProductID.toString() === productID));
   }, []);
 

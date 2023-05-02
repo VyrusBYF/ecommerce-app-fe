@@ -43,39 +43,51 @@ export const TextInputFormGroup = (props: ITextInputFormGroupProps): JSX.Element
     onMouseOver,
     onMouseUp,
     extraOnChange,
-    showValidTooltip,
-    hideInvalidTooltip,
+    ariaDescribedBy,
     failsOn,
-    startTouched,
-    placeholderKey,
-    placeholderText,
-    minLength,
-    minLengthMessage,
+    hideInvalidTooltip,
+    isEmail,
+    isFax,
+    isPhone,
+    isUsername,
+    max,
     maxLength,
     maxLengthMessage,
-    isEmail,
-    isPhone,
-    isFax,
-    isUsername,
-    ariaDescribedBy
+    maxMessage,
+    min,
+    minLength,
+    minLengthMessage,
+    minMessage,
+    placeholderKey,
+    placeholderText,
+    showValidTooltip,
+    startTouched
   } = props;
 
   const textInput = register(formIdentifier, {
-    required: {
-      value: typeof required === "boolean" ? required : null,
-      message: requiredMessage ?? "This field is required"
-    },
-    minLength: {
-      value: typeof minLength === "number" ? minLength : null,
-      message: minLengthMessage ?? `Must reach minimum length of ${minLength}`
+    max: {
+      value: typeof max === "number" ? max : null,
+      message: maxMessage ?? `Please enter an amount less than ${max}`
     },
     maxLength: {
       value: typeof maxLength === "number" ? maxLength : null,
       message: maxLengthMessage ?? `Must not exceed maximum length of ${maxLength}`
     },
+    min: {
+      value: typeof min === "number" ? min : null,
+      message: minMessage ?? `Please enter an amount greater than ${max}`
+    },
+    minLength: {
+      value: typeof minLength === "number" ? minLength : null,
+      message: minLengthMessage ?? `Must reach minimum length of ${minLength}`
+    },
     pattern: {
       value: pattern === null ? null : pattern,
       message: patternMessage ?? "Value does not match required pattern"
+    },
+    required: {
+      value: typeof required === "boolean" ? required : null,
+      message: requiredMessage ?? "This field is required"
     },
     validate: validateObject ?? null
   });

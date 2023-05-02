@@ -1,6 +1,6 @@
-import { Button, Col, Container, Row, Table } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { useShoppingCart } from "./ShoppingCartProvider";
-import { faCircleCheck, faFileLines, faMultiply, faShareNodes } from "@fortawesome/free-solid-svg-icons";
+import { faCircleCheck, faFileLines, faShareNodes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { QuantityModifier } from "src/_shared/QuantityModifier";
 import { applyDiscount, globalDiscount } from "src/_shared/pricing";

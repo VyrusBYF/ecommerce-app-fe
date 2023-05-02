@@ -1,6 +1,5 @@
 import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
 import { Col } from "react-bootstrap";
 
 interface ICategoryFilterProps {
@@ -14,7 +13,7 @@ export const CategoryFilter = (props: ICategoryFilterProps): JSX.Element => {
   const active = categoryFilters.includes(categoryName);
 
   return (
-    <Col className="text-start">
+    <Col className="text-center text-md-start">
       <button
         className={`border-0 bg-body ${active ? "text-blue" : ""}`}
         onClick={() => {
@@ -31,7 +30,7 @@ export const CategoryFilter = (props: ICategoryFilterProps): JSX.Element => {
         <FontAwesomeIcon
           icon={faBagShopping}
           size={"xs"}
-          className="ms-2"
+          className="ms-0 ms-sm-2 d-none d-sm-inline"
         />
       </button>
     </Col>

@@ -1,38 +1,13 @@
-import { ReactNode, useEffect, useState } from "react";
-import { default as CardFlip } from "react-card-flip";
+import { ReactNode, useState } from "react";
 import { Button, Card, Carousel, Col, Container, Form, Row } from "react-bootstrap";
 import brand from "src/_shared/brand";
 import { ProductCard } from "src/Shopping/Product/ProductCard";
-import { Product } from "src/_shared/sharedTypes";
+import { CatalogViews, Product } from "src/_shared/sharedTypes";
 import Products from "src/_shared/Products.json";
-import { globalDiscount } from "src/_shared/pricing";
 
 export const Home = (): JSX.Element => {
   // Temporary setup until database is done.
   const [products, setProducts] = useState<Product[]>(Products.slice(0, 8));
-
-  const carouselItems: { label: string; desc: string; imgLink: string }[] = [
-    {
-      label: "First slide label",
-      desc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-      imgLink: "media/assets-casual-long.jpg"
-    },
-    {
-      label: "Second slide label",
-      desc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-      imgLink: "media/assets-suit-long.jpg"
-    },
-    {
-      label: "Third slide label",
-      desc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-      imgLink: "media/assets-dress-long.jpg"
-    },
-    {
-      label: "Fourth slide label",
-      desc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-      imgLink: "media/assets-shoes-long.jpg"
-    }
-  ];
 
   const placeholderCategories: ReactNode[] = [...new Array(3)].fill(
     <Col
@@ -41,7 +16,7 @@ export const Home = (): JSX.Element => {
       <Card className="my-3 mx-auto shadow-sm">
         <Card.Img
           className=""
-          src="media/assets-product-img.png"
+          src="/media/assets-product-img.png"
         />
         <Card.ImgOverlay>
           <Card.Text className="position-absolute bottom-0 start-0 end-0 fs-5">Category</Card.Text>
@@ -52,6 +27,29 @@ export const Home = (): JSX.Element => {
     3
   );
 
+  const carouselItems: { label: string; desc: string; imgLink: string }[] = [
+    {
+      label: "First slide",
+      desc: "Nulla vitae elit libero, a pharetra augue.",
+      imgLink: "media/assets-casual-long.jpg"
+    },
+    {
+      label: "Second slide",
+      desc: "Nulla vitae elit libero, a pharetra augue.",
+      imgLink: "media/assets-suit-long.jpg"
+    },
+    {
+      label: "Third slide",
+      desc: "Nulla vitae elit libero, a pharetra augue.",
+      imgLink: "media/assets-dress-long.jpg"
+    },
+    {
+      label: "Fourth slide",
+      desc: "Nulla vitae elit libero, a pharetra augue.",
+      imgLink: "media/assets-shoes-long.jpg"
+    }
+  ];
+
   return (
     <div>
       <Container className="mx-auto">
@@ -60,20 +58,20 @@ export const Home = (): JSX.Element => {
             className=""
             interval={3500}
             controls={false}>
-            {carouselItems.map((carouselItem, id) => (
+            {carouselItems.map((item, id) => (
               <Carousel.Item
                 className=""
                 key={id}>
                 <div className="img-overlay-container">
                   <img
-                    className="d-block img-fluid"
-                    src={carouselItem.imgLink}
-                    alt="First slide"
+                    className="img-fluid"
+                    src={item.imgLink}
+                    alt={item.label}
                   />
                 </div>
                 <Carousel.Caption className="">
-                  <h3>{carouselItem.label}</h3>
-                  <p>{carouselItem.desc}</p>
+                  <h3>{`${item.label} label`}</h3>
+                  <p>{item.desc}</p>
                 </Carousel.Caption>
               </Carousel.Item>
             ))}
@@ -113,19 +111,27 @@ export const Home = (): JSX.Element => {
         <Row>
           <Col
             xs={12}
-            md={6}
+            sm={6}
+            md={12}
+            lg={6}
             className="">
-            <ProductCard product={products[0]} />
+            <ProductCard
+              product={products[0]}
+              view={CatalogViews.default}
+            />
           </Col>
           <Col>
             <Row>
               {products?.slice(1, products.length - 1).map(
                 (product, id): JSX.Element => (
                   <Col
-                    xs={6}
+                    xs={12}
                     sm={4}
                     key={id + 1}>
-                    <ProductCard product={product} />
+                    <ProductCard
+                      product={product}
+                      view={CatalogViews.default}
+                    />
                   </Col>
                 )
               )}
