@@ -11,7 +11,6 @@ import { ShoppingCartProvider } from "./Shopping/Cart/ShoppingCartProvider";
 import { CookiesProvider } from "react-cookie";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-export const mediaUrl = "src/_meta/media";
 
 root.render(
   <React.StrictMode>

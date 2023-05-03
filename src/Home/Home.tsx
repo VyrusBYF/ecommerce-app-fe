@@ -4,19 +4,23 @@ import brand from "src/_shared/brand";
 import { ProductCard } from "src/Shopping/Product/ProductCard";
 import { CatalogViews, Product } from "src/_shared/sharedTypes";
 import Products from "src/_shared/Products.json";
+import { useNavigate } from "react-router";
 
 export const Home = (): JSX.Element => {
   // Temporary setup until database is done.
   const [products, setProducts] = useState<Product[]>(Products.slice(0, 8));
+  const navigate = useNavigate();
 
   const placeholderCategories: ReactNode[] = [...new Array(3)].fill(
     <Col
       xs={12}
       md={3}>
-      <Card className="my-3 mx-auto shadow-sm">
+      <Card
+        className="my-3 mx-auto shadow-sm"
+        onClick={() => navigate("/shop")}>
         <Card.Img
           className=""
-          src="/media/assets-product-img.png"
+          src="media/assets-product-img.png"
         />
         <Card.ImgOverlay>
           <Card.Text className="position-absolute bottom-0 start-0 end-0 fs-5">Category</Card.Text>
