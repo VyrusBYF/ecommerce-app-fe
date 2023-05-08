@@ -9,6 +9,8 @@ import { applyDiscount, globalDiscount } from "src/_shared/pricing";
 import { ShareButton } from "src/_shared/Buttons/ShareButton";
 import { WishlistButton } from "src/_shared/Buttons/WishlistButton";
 import { TextCompress } from "src/_shared/TextCompress";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHandPointer, faMinus } from "@fortawesome/free-solid-svg-icons";
 
 interface IProductCardProps {
   product: Product;

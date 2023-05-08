@@ -77,13 +77,18 @@ export const ProductDetailsPage = (): JSX.Element => {
                       <Col
                         xs={6}
                         sm={3}
+                        md={6}
+                        lg={3}
                         className="my-3 mx-auto mx-sm-0">
-                        <QuantityModifier />
+                        <QuantityModifier productID={currentProduct.ProductID} />
                       </Col>
                     ) : null}
                     <Col
-                      sm={4}
-                      className="text-center my-auto">
+                      xs={6}
+                      sm={3}
+                      md={6}
+                      lg={3}
+                      className="text-start my-auto">
                       <AddToCartButton
                         product={currentProduct}
                         buttonClass="btn btn-outline-dark"

@@ -273,7 +273,7 @@ export const Catalog = (): JSX.Element => {
                           <Button
                             className="btn-text-sm px-3 py-1 rounded w-50"
                             type="submit"
-                            disabled={currentMinPrice === "" || currentMinPrice === ""}
+                            disabled={currentMinPrice === "" && currentMaxPrice === ""}
                             variant="dark">
                             Filter
                           </Button>

@@ -112,19 +112,21 @@ export const CartDetails = (): JSX.Element => {
       ) : null}
       <Row className="p-3">
         <Col>
-          <Row className="">
-            <Col className="d-flex justify-content-center">
-              <Button
-                className="w-80"
-                variant="outline-dark"
-                onClick={() => {
-                  navigate("/cart", { replace: true });
-                  cart.showToggle();
-                }}>
-                View Cart
-              </Button>
-            </Col>
-          </Row>
+          {cart.isCartEmpty ? null : (
+            <Row className="">
+              <Col className="d-flex justify-content-center">
+                <Button
+                  className="w-80"
+                  variant="outline-dark"
+                  onClick={() => {
+                    navigate("/cart", { replace: true });
+                    cart.showToggle();
+                  }}>
+                  View Cart
+                </Button>
+              </Col>
+            </Row>
+          )}
           <Row className="py-3">
             <Col className="d-flex justify-content-center">
               {cart.isCartEmpty ? (

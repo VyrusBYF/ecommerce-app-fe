@@ -5,6 +5,7 @@ import { ProductCard } from "src/Shopping/Product/ProductCard";
 import { CatalogViews, Product } from "src/_shared/sharedTypes";
 import Products from "src/_shared/Products.json";
 import { useNavigate } from "react-router";
+import { toast } from "react-toastify";
 
 export const Home = (): JSX.Element => {
   // Temporary setup until database is done.
@@ -167,8 +168,8 @@ export const Home = (): JSX.Element => {
                 </Form.Group>
                 <Button
                   variant="outline-dark"
-                  type="submit"
-                  className="mt-5 button-font px-5">
+                  className="mt-5 button-font px-5"
+                  onClick={() => toast.info("Subscriptions Coming Soon...")}>
                   SUBSCRIBE
                 </Button>
               </Form>

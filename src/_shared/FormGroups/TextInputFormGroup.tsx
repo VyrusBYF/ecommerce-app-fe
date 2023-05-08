@@ -75,7 +75,7 @@ export const TextInputFormGroup = (props: ITextInputFormGroupProps): JSX.Element
     },
     min: {
       value: typeof min === "number" ? min : null,
-      message: minMessage ?? `Please enter an amount greater than ${max}`
+      message: minMessage ?? `Please enter an amount greater than ${min}`
     },
     minLength: {
       value: typeof minLength === "number" ? minLength : null,
@@ -158,7 +158,7 @@ export const TextInputFormGroup = (props: ITextInputFormGroupProps): JSX.Element
       <div className="input-group">
         {renderLeftIcon()}
         <input
-          className={`form-control ${rightIcon ? "" : "rounded-right"} ${applyValidClass()} ${inputClass ?? ""}`}
+          className={`form-control ${rightIcon ? "" : "rounded-right"} ${inputClass ?? ""}`}
           type={isPhone || isFax ? "tel" : "text"}
           onBlur={onBlur}
           onFocus={onFocus}

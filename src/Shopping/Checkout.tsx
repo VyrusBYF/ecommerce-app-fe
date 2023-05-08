@@ -7,6 +7,7 @@ import { applyDiscount, globalDiscount } from "src/_shared/pricing";
 import { useState } from "react";
 import { TextAreaFormGroup } from "src/_shared/FormGroups/TextAreaFormGroup";
 import { useShoppingCart } from "./Cart/ShoppingCartProvider";
+import { toast } from "react-toastify";
 
 interface ICheckoutDetails {
   // Billing details
@@ -53,7 +54,7 @@ export const Checkout = (): JSX.Element => {
   });
 
   const placeOrder = (data: ICheckoutDetails) => {
-    console.log(data);
+    // console.log(data);
   };
 
   // Renders the different sections in the billing form
@@ -327,7 +328,7 @@ export const Checkout = (): JSX.Element => {
                     <Col className="p-4">
                       <Button
                         className="w-100"
-                        type="submit"
+                        onClick={() => toast.info("Payment Processing Coming Soon")}
                         variant="outline-dark">
                         Place Order
                       </Button>

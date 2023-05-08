@@ -42,6 +42,10 @@ export const QuantityModifier = (props: IQuantityModifierProps): JSX.Element => 
           variant="dark"
           size="sm"
           onClick={() => {
+            if (quantity === 1) {
+              cart.removeFromCart(productID);
+              return;
+            }
             if (quantity > 1) {
               setQuantity(quantity - 1);
               if (productID >= 0) {

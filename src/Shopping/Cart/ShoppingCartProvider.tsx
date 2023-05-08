@@ -67,6 +67,7 @@ export const ShoppingCartProvider = (props: IShoppingCartProviderProps): JSX.Ele
     }
     const currentProduct = checkCart(id);
     const newCartItems = [...cartItems];
+    console.log("gaza");
     if (newCartItems[currentProduct].Quantity <= 1) {
       return;
     }

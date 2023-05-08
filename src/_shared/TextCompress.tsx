@@ -16,13 +16,13 @@ export const TextCompress = (props: ITextCompressProps): JSX.Element => {
         <span
           className="text-primary fst-italic"
           onClick={() => setReadMore(false)}>
-          read more
+          Read more
         </span>
       ) : (
         <span
           className="text-primary fst-italic"
           onClick={() => setReadMore(true)}>
-          show less
+          Show less
         </span>
       )}
     </div>
