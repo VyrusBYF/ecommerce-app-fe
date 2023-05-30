@@ -316,7 +316,7 @@ export const Catalog = (): JSX.Element => {
                 <Col
                   xs={6}
                   md={1}
-                  className="mt-2">
+                  className="mt-2 mt-md-0">
                   <FontAwesomeIcon
                     className={`${catalogView === CatalogViews.default ? "text-blue" : ""}`}
                     icon={faGrip}
@@ -326,7 +326,7 @@ export const Catalog = (): JSX.Element => {
                 <Col
                   xs={6}
                   md={1}
-                  className="mt-2">
+                  className="mt-2 mt-md-0">
                   <FontAwesomeIcon
                     className={`${catalogView === CatalogViews.detailed ? "text-blue" : ""}`}
                     icon={faList}

@@ -47,11 +47,11 @@ export const ShoppingCartProvider = (props: IShoppingCartProviderProps): JSX.Ele
   const addToCart = (product: Product) => {
     if (checkCart(product.ProductID) < 0) {
       setCartItems([...cartItems, { ...product, Quantity: 1 }]);
-      toast.success(`${getItemByID(product.ProductID)?.Name ?? "Item"} was added to cart`);
+      toast.success("Item was added to cart");
       return;
     }
     increaseItemQuantity(product.ProductID);
-    toast.success(`${getItemByID(product.ProductID)?.Name ?? "Item"} was added to cart`);
+    toast.success("Item was added to cart");
   };
 
   const getItemByID = (id: number) => {
@@ -67,7 +67,6 @@ export const ShoppingCartProvider = (props: IShoppingCartProviderProps): JSX.Ele
     }
     const currentProduct = checkCart(id);
     const newCartItems = [...cartItems];
-    console.log("gaza");
     if (newCartItems[currentProduct].Quantity <= 1) {
       return;
     }
@@ -97,7 +96,7 @@ export const ShoppingCartProvider = (props: IShoppingCartProviderProps): JSX.Ele
       return;
     }
     setCartItems([...cartItems.filter(item => item.ProductID !== id)]);
-    toast.error(`${getItemByID(id)?.Name ?? "Item"} was removed from cart`);
+    toast.error("Item was removed from cart");
   };
 
   const showToggle = (close?: boolean) => {
