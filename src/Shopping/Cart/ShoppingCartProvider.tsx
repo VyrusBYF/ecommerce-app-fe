@@ -12,6 +12,7 @@ interface IShoppingCartProviderProps {
 interface IShoppingCartContext {
   addToCart?: (product: Product) => void;
   cartItems: CartItem[];
+  clearCart?: () => void;
   decreaseItemQuantity?: (id: number) => void;
   getItemByID?: (id: number) => CartItem;
   getItemQuantity?: (id: number) => number;
@@ -52,6 +53,14 @@ export const ShoppingCartProvider = (props: IShoppingCartProviderProps): JSX.Ele
     }
     increaseItemQuantity(product.ProductID);
     toast.success("Item was added to cart");
+  };
+
+  const clearCart = () => {
+    if (isCartEmpty) {
+      return;
+    }
+    setCartItems([]);
+    toast.success("Your cart has been cleared");
   };
 
   const getItemByID = (id: number) => {
@@ -112,6 +121,7 @@ export const ShoppingCartProvider = (props: IShoppingCartProviderProps): JSX.Ele
       value={{
         addToCart,
         cartItems,
+        clearCart,
         decreaseItemQuantity,
         getItemByID,
         getItemQuantity,

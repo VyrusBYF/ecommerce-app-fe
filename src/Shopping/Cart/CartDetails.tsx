@@ -114,7 +114,9 @@ export const CartDetails = (): JSX.Element => {
         <Col>
           {cart.isCartEmpty ? null : (
             <Row className="">
-              <Col className="d-flex justify-content-center">
+              <Col
+                xs={12}
+                className="d-flex justify-content-center my-1">
                 <Button
                   className="w-80"
                   variant="outline-dark"
@@ -123,6 +125,18 @@ export const CartDetails = (): JSX.Element => {
                     cart.showToggle();
                   }}>
                   View Cart
+                </Button>
+              </Col>
+              <Col
+                xs={12}
+                className="d-flex justify-content-center my-1">
+                <Button
+                  className="w-80"
+                  variant="outline-dark"
+                  onClick={() => {
+                    cart.clearCart();
+                  }}>
+                  Clear Cart
                 </Button>
               </Col>
             </Row>
